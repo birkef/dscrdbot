@@ -2,6 +2,18 @@
 
 Easy bot for Discord with birksovskiy's links.
 
+## Usage
+
+1. Build a jar-file
+```sh
+./gradlew shadowJar
+```
+
+2. Run the bot with your token by executing the following command
+```sh
+java -jar birkdisbot-[VERSION]-all.jar [TOKEN]
+```
+
 ## Stack
 
 - Discord API library: [JDA](https://github.com/discord-jda/JDA)
