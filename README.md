@@ -4,17 +4,23 @@ Easy bot for Discord with birksovskiy's links.
 
 ## Usage
 
-1. Build a jar-file
+### 1. Build a jar-file
+Unix (Linux, MacOS):
 ```sh
 ./gradlew shadowJar
 ```
 
-2. Go to `build/libs` folder
+Windows:
+```sh
+./gradlew.bat shadowJar
+```
+
+### 2. Go to `build/libs` folder
 ```sh
 cd build/libs
 ```
 
-3. Run the bot with your token by executing the following command
+### 3. Run the bot with your token by executing the following command
 ```sh
 java -jar birkdisbot-[VERSION]-all.jar [TOKEN]
 ```
