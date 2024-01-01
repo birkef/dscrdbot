@@ -1,6 +1,6 @@
 package com.github.birksovskiy.birkdisbot;
 
-import com.github.birksovskiy.birkdisbot.listeners.commands.Links;
+import com.github.birksovskiy.birkdisbot.listeners.LinkCommands;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             JDA jda = JDABuilder.createDefault(args[0])
-                    .addEventListeners(new Links())
+                    .addEventListeners(new LinkCommands())
                     .setActivity(Activity.streaming("новый альбом Ксенона", "https://youtube.com/watch?v=adibCKTBqHo"))
                     .build();
 

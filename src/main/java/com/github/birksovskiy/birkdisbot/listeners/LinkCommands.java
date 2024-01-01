@@ -1,9 +1,9 @@
-package com.github.birksovskiy.birkdisbot.listeners.commands;
+package com.github.birksovskiy.birkdisbot.listeners;
 
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
-public class Links extends ListenerAdapter {
+public class LinkCommands extends ListenerAdapter {
     @Override
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
         switch (event.getName()) {
