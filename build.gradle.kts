@@ -8,7 +8,7 @@ application.mainClass = "com.github.birksovskiy.birkdisbot.Main"
 group = "com.github.birksovskiy"
 version = "1.0-SNAPSHOT"
 
-val jdaVersion = "5.0.0-beta.18"
+val jdaVersion = "5.0.0-beta.19"
 
 repositories {
     mavenCentral()
