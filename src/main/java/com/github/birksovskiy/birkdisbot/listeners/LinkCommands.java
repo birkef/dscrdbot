@@ -7,9 +7,9 @@ public class LinkCommands extends ListenerAdapter {
     @Override
     public void onSlashCommandInteraction(SlashCommandInteractionEvent event) {
         switch (event.getName()) {
-            case "website"  -> event.reply("https://birksovskiy.vercel.app/").setEphemeral(true).queue();
-            case "github"   -> event.reply("https://github.com/birksovskiy/").setEphemeral(true).queue();
-            case "mastodon" -> event.reply("https://lor.sh/@birksovskiy").setEphemeral(true).queue();
+            case "website"  -> event.reply("https://birkx.vercel.app/").setEphemeral(true).queue();
+            case "github"   -> event.reply("https://github.com/birkxef/").setEphemeral(true).queue();
+            case "fediverse" -> event.reply("https://lamp.leemoon.network/@birksovskiy").setEphemeral(true).queue();
         }
     }
 }
