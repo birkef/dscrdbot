@@ -1,6 +1,6 @@
-# birkdisbot
+# birkefxn/disbot
 
-Easy bot for Discord with birksovskiy's links.
+Easy bot for Discord with birk's links.
 
 ## Usage
 
